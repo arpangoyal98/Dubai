@@ -1,8 +1,9 @@
+*{
+    box-sizing: border-box;
+}
 body{
-  box-sizing: border-box;
   background-image: url(index.jpg);
-  background-repeat:
-  margin: 0px;
+/* background-repeat: no-repeat; */
   padding: 0px;
 }
 h1{
@@ -24,15 +25,31 @@ h2{
   float: left;
   width: 30%;
   padding: 10px;
-  margin-right: 1%;
 }
 img{
 height: 100%;
 width: 100%;
 object-fit: contain;
 }
-@media (max-width: 900px) {
-  .box{
-    width: 23%;
+.row{
+  width: 100%;
+}
+@media (min-width: 1200px) {
+  .col-lg-4{
+    float: left;
+    width: 33.33%;
   }
+}
+
+@media (min-width: 950px) and (max-width: 1199px){
+  .col-md-6{
+      float:left;
+      width: 50%;
+    }
+}
+@media (max-width: 949px){
+  .col-sm-12{
+      float:left;
+      width: 100%;
+    }
 }
