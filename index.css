@@ -1,0 +1,33 @@
+body{
+  box-sizing: border-box;
+  background-image: url(index.jpg);
+  background-repeat:
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+/*  border: 2px solid black;
+  border-radius: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: lightgray;
+  */text-align: center;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.box{
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: 'Ariel', sans-serif;
+  background-color: #D3D3D3;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-right: 1%;
+}
+img{
+height: 100%;
+width: 100%;
+object-fit: contain;
+}
